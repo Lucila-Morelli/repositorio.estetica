@@ -44,6 +44,7 @@ nav li a:hover {
     justify-content: center;
     color: rgb(158, 23, 90);
     font-size: 50px;
+    
 }
 
 .parrafoIndex {
@@ -282,6 +283,10 @@ grid-template-areas:
     border-radius: 30%;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.MetodoPago :hover {
+    border-radius: 10px;
+    background-color: coral ;
 }
 
 div ul li {
