@@ -168,10 +168,13 @@ footer ol li {
 
 .footer {
     color: white;
-    background-image: linear-gradient(to right, rgb(183, 192, 192), rgb(77, 73, 73));
+    background-color: lightcyan;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .h4Index {
@@ -409,7 +412,19 @@ form input[type="submit"] {
     font-size: 18px;
     font-weight: 20px;
     margin-left: 35px;
-    transition:width 10s;
+
+}
+
+@keyframes color {
+0% {
+    background-color: rgb(166, 242, 242);
+}
+50% {
+    background-color: bisque;
+}
+100% {
+    background-color: dimgrey;
+}
 }
 
 @media (max-width:1024px) {
