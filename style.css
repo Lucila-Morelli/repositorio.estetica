@@ -1,0 +1,480 @@
+/* COMIENZO CON EL INDEX */
+/* La idea es que cuando pasas con el mause por arriba de los divs te lleve a las páginas*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(232, 202, 223);
+    padding: 8px;
+    background-image: linear-gradient(to right, rgb(177, 168, 176), rgb(52, 192, 185));
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 100%;
+    border: solid 5px black;
+    margin-left: 15px;
+}
+
+nav ul li {
+    color: rgba(255, 20, 145, 0.79);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px 10px 15px 15px;
+    padding: 5px;
+    font-size: large;
+}
+
+nav li a:hover {
+    color: black;
+    background-color: #c71585;
+}
+
+.main {
+    background-color: bisque;
+}
+
+.tituloIndex {
+    display: flex;
+    justify-content: center;
+    color: rgb(158, 23, 90);
+    font-size: 50px;
+}
+
+.parrafoIndex {
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(11, 11, 11);
+}
+
+.container {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: 40px;
+padding: 10px;
+justify-items: center;
+
+}
+
+.divIndex1 {
+   
+    border: solid 2px black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+    background-image: url(./img/imauñas.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.divIndex2 {
+  
+    border: solid 2px black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+    background-image: url(../estéticaMorelli/img/perfilado3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.divIndex3 {
+   
+    border: solid 2px black;
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+    background-image: url(./img/perifl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.divIndex4 {
+    
+    border: solid 2px black;
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 30px;
+    background-image: url(../estéticaMorelli/img/imaMasajes.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.article {
+    display: inline-block;
+    background-color: hotpink;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 100%;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+.letraNegra {
+    color: black;
+    background-color: rgb(150, 21, 90);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Spline Sans Mono', monospace
+}
+
+.h3 {
+    color: black;
+    font-size: large;
+    position: relative;
+    top: 5px;
+    left: 300px;
+    font-family: 'Spline Sans Mono', monospace
+}
+
+footer ol li {
+    color: rgb(11, 11, 11);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px 10px 15px 15px;
+    font-size: large;
+}
+
+.footer {
+    color: white;
+    background-image: linear-gradient(to right, rgb(183, 192, 192), rgb(77, 73, 73));
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h4Index {
+    color: #c71585;
+    padding: 5px;
+}
+
+.parrafoFooter {
+    color: black;
+}
+
+/* SOBRE NOSOTRAS */
+
+.parrafoNosotras {
+    font-size: 30px;
+    margin:15px 15px 15px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tituloSobre {
+    color: rgb(173, 25, 109);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.estetica {
+    display: inline-block;
+    height: 750px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 40%;
+}
+
+/* DESCUENTOS */
+
+.tituloDescuento {
+    margin-left: 350px;
+    padding:15px ;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    display: grid;
+grid-template-areas:
+        "descuentoCejas descuentoMasajes descuentoPestañas descuentoUñas"
+        "dosXuno dosXuno tarjetaRegalo tarjetaRegalo"
+        ". MetodoPago MetodoPago .";
+  
+}
+
+.descuentoCejas {
+
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.descuentoMasajes {
+    grid-area: descuentoMasajes;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.descuentoPestañas {
+    grid-area: descuentoPestañas;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.descuentoUñas {
+    grid-area: descuentoUñas;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dosXuno {
+    grid-area: dosXuno;
+    padding: 6px;
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.tarjetaRegalo {
+    grid-area: tarjetaRegalo;
+    padding: 8px;
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 13px;
+    margin-bottom: 15px;
+}
+
+.MetodoPago {
+    grid-area: MetodoPago;
+    background-color: rgb(108, 104, 106);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    color: wheat;
+}
+
+/* PRESS ON NAILS */
+form {
+    width: 500px;
+    background-color: rgb(191, 163, 177);
+    padding: 25px;
+    margin:30px
+}
+
+.tituloPress {
+    color: rgb(220, 20, 160);
+    font-size: 40px;
+}
+
+.tituloPress2 {
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.mainPress {
+    background-color: darksalmon;
+}
+
+.ulPress {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    list-style: circle;
+    font-size: 20px;
+}
+
+.spanP {
+    color: black;
+    background-color: rgb(192, 88, 109);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pPress {
+    display: inline-block;
+    background-color: deeppink;
+    font-size: 25px;
+    margin-left: 30px;
+    border: solid 15px black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: 3px solid black;
+    width: 450px;
+    padding: 10px;
+    display: block;
+}
+
+form input[type="submit"] {
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.imaPress {
+    display: inline-block;
+    height: 350px;
+    width: 450px;
+    padding: 20px;
+}
+
+.imaPress2 {
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+}
+
+/* COMIENZO CON CONTACTO */
+.parrafoCont {
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.text {
+    width: 450px;
+    background-color: white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: solid 5px black;
+}
+
+.enviar {
+    background-color: black;
+    padding: 9px;
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 20px;
+    margin-left: 35px;
+    transition:width 10s;
+}
+
+@media (max-width:1024px) {
+   /* INDEX */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+          
+    }
+
+    .h3 {
+        display: flex;
+        color: black;
+        font-size: large;
+        top: 5px;
+        left: 50px;
+        font-family: 'Spline Sans Mono', monospace
+    }
+
+    .header {
+      display: grid;
+        background-color: rgb(232, 202, 223);
+        padding: 8px;
+        background-image: linear-gradient(to right, rgb(177, 168, 176), rgb(52, 192, 185));
+    }
+
+    /* DESCUENTO */
+    .tituloDescuento {
+      margin-left: 30px;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .container2 {
+      display: flex;
+   flex-direction: column;
+   
+    }
+    
+    /* SOBRE NOSOTRAS */
+    .estetica {
+        display: inline-block;
+        height: 750px;
+        width: 380px;
+        padding: 20px;
+        border-radius: 40%;
+    }
+    
+    /* PRESS ON NAILS */
+    form {
+        width: 350px;
+        background-color: rgb(223, 143, 186);
+        padding: 25px;
+        margin: 0 auto
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: 3px solid black;
+    width: 250px;
+    padding: 10px;
+    display: block;
+}
+
+.imaPress {
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+}
+
+/* CONTACTO */
+.text {
+    width: 350px;
+    background-color: white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: solid 5px black;
+}
+
+}
